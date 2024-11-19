@@ -120,7 +120,7 @@ export function BulletRuntime() {
                                     chainMonsterDiv.style.visibility = "visible";
                                     set.chainMult.style.visibility = "visible";
                                 }
-                                chainMonster.src = "../template/style/ressources/" + set.monstersObj[indexMonster].color + ".png"
+                                chainMonster.src = "./" + set.monstersObj[indexMonster].color + ".png"
 
                                 if (dickSounds.enemy_death != null) {
                                     dickSounds.enemy_death.volume = 0.2;

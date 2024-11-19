@@ -24,7 +24,7 @@ export class Sprite {
                 console.error("Failed to load image :",imageName);
                 reject(new Error("Failed to load image"));
             };
-            this.img.src = "../template/style/ressources/" + imageName + ".png";
+            this.img.src = "./" + imageName + ".png";
         });
     }
     
