@@ -28,7 +28,7 @@ export function SetInterfaceVisibility(status = "", currentLvl , txtKeyboardChan
             tuto.style.visibility = "visible";
             displayInterface.style.visibility = "visible";
             displayFlou.style.visibility = "visible";
-            titleInterface.src = "../template/style/ressources/logo.png";
+            titleInterface.src = "./logo.png";
             titleInterface.style.height = "40%";
             titleInterface.style.visibility = "visible";
             divScoreboard.style.visibility = "hidden";
@@ -49,7 +49,7 @@ export function SetInterfaceVisibility(status = "", currentLvl , txtKeyboardChan
             displayInterface.style.visibility = "visible";
             titleInterface.style.height = "20%";
             titleInterface.style.visibility = "visible";
-            titleInterface.src = "../template/style/ressources/Story.png";
+            titleInterface.src = "./Story.png";
             historyText.style.visibility = "visible";
             historyText.innerHTML = history[set.currentLvl];
             playBtn.style.visibility = "hidden";
@@ -64,7 +64,7 @@ export function SetInterfaceVisibility(status = "", currentLvl , txtKeyboardChan
             divScoreboard.style.visibility = "hidden";
             displayInterface.style.visibility = "visible";
             titleInterface.style.height = "20%";
-            titleInterface.src = "../template/style/ressources/EM.png";
+            titleInterface.src = "./EM.png";
             titleInterface.style.visibility = "visible";
             historyText.style.visibility = "visible";
             historyText.innerHTML = "Endless mode is a challenging mode. " +
@@ -116,7 +116,7 @@ export function SetInterfaceVisibility(status = "", currentLvl , txtKeyboardChan
             titleInterface.style.visibility = "visible";
             titleInterface.style.height = "20%";
             titleInterface.style.top = "1%";
-            titleInterface.src = "../template/style/ressources/Scoreboard.png";
+            titleInterface.src = "./Scoreboard.png";
             divScoreboard.style.visibility = "visible";
             continueBtn.style.visibility = "visible";
             // (set.currentLvl > 2) ? continueBtn.innerText = "Restart" : continueBtn.innerText = "Main Menu";
@@ -134,10 +134,10 @@ export function SetInterfaceVisibility(status = "", currentLvl , txtKeyboardChan
                 titleInterface.style.visibility = "visible";
                 titleInterface.style.height = "20%";
                 if (set.currentLvl > 2) {
-                    titleInterface.src = "../template/style/ressources/ConG.png";
+                    titleInterface.src = "./ConG.png";
                 } else {
 
-                    titleInterface.src = "../template/style/ressources/GO.png";
+                    titleInterface.src = "./GO.png";
                 }
                 set.form.style.visibility = "visible"
             }
@@ -145,7 +145,7 @@ export function SetInterfaceVisibility(status = "", currentLvl , txtKeyboardChan
         case "keyboard":
             tuto.style.visibility = "hidden";
             titleInterface.style.height = "20%";
-            titleInterface.src = "../template/style/ressources/KeyConf.png";
+            titleInterface.src = "./KeyConf.png";
             historyText.style.visibility = "hidden";
             keyboard.style.visibility = "visible";
             playBtn.style.visibility = "hidden";
@@ -166,7 +166,7 @@ export function SetInterfaceVisibility(status = "", currentLvl , txtKeyboardChan
             scoreboardBtn.innerText = "Continue";
             titleInterface.style.height = "20%";
             titleInterface.style.visibility = "visible";
-            titleInterface.src = "../template/style/ressources/Story.png";
+            titleInterface.src = "./Story.png";
             historyText.style.visibility = "visible";
             historyText.innerHTML = history[set.currentLvl];
             break;
@@ -178,7 +178,7 @@ export function SetInterfaceVisibility(status = "", currentLvl , txtKeyboardChan
             scoreboardBtn.innerText = "Continue";
             titleInterface.style.height = "20%";
             titleInterface.style.visibility = "visible";
-            titleInterface.src = "../template/style/ressources/Story.png";
+            titleInterface.src = "./Story.png";
             historyText.style.visibility = "visible";
             historyText.innerHTML = looseMsg[set.currentLvl];
             break;
@@ -196,7 +196,7 @@ export function SetInterfaceVisibility(status = "", currentLvl , txtKeyboardChan
                 displayInterface.style.visibility = "visible";
                 titleInterface.style.height = "40%";
                 titleInterface.style.visibility = "visible";
-                titleInterface.src = "../template/style/ressources/Pause.png";
+                titleInterface.src = "./Pause.png";
                 continueBtn.style.visibility = "visible";
                 continueBtn.innerText = "Main Menu";
                 scoreboardBtn.style.visibility = "visible";
@@ -215,9 +215,9 @@ export function SetInterfaceVisibility(status = "", currentLvl , txtKeyboardChan
             scoreboardBtn.style.visibility = "hidden";
             saveScore.innerHTML = set.score + " pts";
             if (set.currentLvl > 2 && !set.isEndless) {
-                titleInterface.src = "../template/style/ressources/ConG.png";
+                titleInterface.src = "./ConG.png";
             } else {
-                titleInterface.src = "../template/style/ressources/GO.png";
+                titleInterface.src = "./GO.png";
             }
             break;
         default:
