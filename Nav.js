@@ -1,12 +1,12 @@
 import { set, dickSounds } from "./Set.js";
-import { updateGame, PauseGame, loadScoreboard, refreshData } from "../views/app.js";
+import { updateGame, PauseGame, loadScoreboard, refreshData } from "./app.js";
 
 import { level, infiniteLevel, generateMapMonster, ClearLevel } from "./Level.js";
-import { SetInterfaceVisibility } from "../entities/InterfaceVisibility.js";
-import { Monsters } from "./Monsters.js";
+import { SetInterfaceVisibility } from "./InterfaceVisibility.js";
 import { Monster } from "./Monster.js";
 import { Vector2 } from "./Vector.js";
-import { GetTimeLeft, timerStart } from "../entities/Timer.js";
+import { timerStart } from "./Timer.js";
+
 let playBtn = document.getElementById("playBtn");
 let continueBtn = document.getElementById("continueBtn");
 let restartBtn = document.getElementById("restartBtn");
@@ -43,7 +43,7 @@ function ResetMonstersSize() {
         // console.log(set.currentLvl);
         tab = infiniteLevel[set.currentLvl];
     }
-    
+
 
     let MonstersWidth = -1;
     for (let y = 0; y <= Object.keys(tab).length - 1; y++) {

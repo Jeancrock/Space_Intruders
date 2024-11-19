@@ -2,7 +2,7 @@ import { set } from "./Set.js"
 import { Vector2 } from "./Vector.js";
 import { Sprite } from "./Sprite.js";
 import { ConvertSizeCSSValueToInt, GetElementNameWithSuffix, GetSize } from "./System.js";
-import { Rect } from "../entities/Rect.js";
+import { Rect } from "./Rect.js";
 
 let extraDiv = document.getElementById("extra");
 extraDiv.style.left = document.getElementById("game").offsetWidth + "px";

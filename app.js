@@ -1,18 +1,14 @@
-import { Player } from "../entities/Player.js";
-import { set, dickSounds } from "../entities/Set.js";
-import { Bullet } from "../entities/Bullet.js";
-import { Rect } from "../entities/Rect.js";
-import { Vector2 } from "../entities/Vector.js";
-import { Monster } from "../entities/Monster.js";
+import { set, dickSounds } from "./Set.js";
+import { Bullet } from "./Bullet.js";
+import { Rect } from "./Rect.js";
 
-import { GetTimeLeft, timerStart } from "../entities/Timer.js";
-import { level, infiniteLevel, generateMapMonster } from "../entities/Level.js";
+import { GetTimeLeft, timerStart } from "./Timer.js";
 
-import { CorrectSpaceKeys, GetActionFromKey, GetKeyFromAction, UpdateKeys, LoadKeys, GetAction } from "../entities/Keyboard.js";
-import { SetInterfaceVisibility } from "../entities/InterfaceVisibility.js";
-import { game } from "../entities/Nav.js";
-import { DestroyAllBullets, monster, EndlessSelect } from "../entities/Nav.js";
-import { MonsterRuntime, BulletRuntime, Shoot } from "../entities/Runtime.js";
+import { CorrectSpaceKeys, GetActionFromKey, GetKeyFromAction, UpdateKeys, LoadKeys, GetAction } from "./Keyboard.js";
+import { SetInterfaceVisibility } from "./InterfaceVisibility.js";
+import { game } from "./Nav.js";
+import { DestroyAllBullets, monster, EndlessSelect } from "./Nav.js";
+import { MonsterRuntime, BulletRuntime, Shoot } from "./Runtime.js";
 
 let playerName = document.getElementById("form_username");
 let formBtn = document.getElementById("formBtn")

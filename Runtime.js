@@ -1,9 +1,7 @@
 import { set, dickSounds } from "./Set.js";
-import { Rect } from "../entities/Rect.js";
-import { Vector2 } from "../entities/Vector.js";
-import { ConvertSizeCSSValueToInt, GetPosition, GetSize } from "../entities/System.js";
-import { level, infiniteLevel } from "./Level.js";
-import { Monster } from "./Monster.js";
+import { Rect } from "./Rect.js";
+import { Vector2 } from "./Vector.js";
+import { GetSize } from "./System.js";
 
 let MAXIMUM_ENNEMY_SHOOT = 30;
 let chronoEnnemyShoot = 0;

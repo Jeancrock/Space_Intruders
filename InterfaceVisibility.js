@@ -1,6 +1,7 @@
 import { history, looseMsg } from "./Level.js";
 import { set } from "./Set.js";
-import {refreshData} from "../views/app.js"
+import {refreshData} from "./app.js";
+
 let tuto = document.getElementById("tuto")
 let displayFlou = document.getElementById("flou");
 let displayInterface = document.getElementById("interface");

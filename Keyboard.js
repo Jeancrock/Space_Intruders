@@ -1,4 +1,4 @@
-import { keyboardConfig } from "../views/app.js";
+import { keyboardConfig } from "./app.js";
 import { SetInterfaceVisibility } from "./InterfaceVisibility.js";
 
 //Return action of btn id
