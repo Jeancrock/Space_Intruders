@@ -64,13 +64,13 @@ function LevelSelect() {
     set.lastEnnemyDestroyed = "";
     switch (set.currentLvl) {
         case 0:
-            set.gameDiv.style.backgroundImage = "url(../template/style/ressources/b.png)"
+            set.gameDiv.style.backgroundImage = "url(./b.png)"
             break;
         case 1:
-            set.gameDiv.style.backgroundImage = "url(../template/style/ressources/desktop-wallpaper-8-bit-64-bit.jpg)"
+            set.gameDiv.style.backgroundImage = "url(./desktop-wallpaper-8-bit-64-bit.jpg)"
             break;
         default:
-            set.gameDiv.style.backgroundImage = "url(../template/style/ressources/ec9ec719f7ee771a7a63a1968a892572.jpeg)"
+            set.gameDiv.style.backgroundImage = "url(./ec9ec719f7ee771a7a63a1968a892572.jpeg)"
             break;
     }
     set.player.Lives = 3;
@@ -85,7 +85,7 @@ function LevelSelect() {
     loadMonsters(level[set.currentLvl]);
 }
 export function EndlessSelect() {
-    set.gameDiv.style.backgroundImage = "url(../template/style/ressources/desktop-wallpaper-8-bit-64-bit.jpg)";
+    set.gameDiv.style.backgroundImage = "url(./desktop-wallpaper-8-bit-64-bit.jpg)";
     generateMapMonster()
     ResetMonstersSize();
     loadMonsters(infiniteLevel[set.currentLvl]);

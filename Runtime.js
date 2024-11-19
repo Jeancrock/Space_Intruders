@@ -151,7 +151,7 @@ export function BulletRuntime() {
 
 export function Shoot(shooter, monster = null) {
     let bulletIndexAvalaible;
-    // let shooter = new Audio("../template/style/ressources/soundtracks/shoot.wav");
+    // let shooter = new Audio("./soundtracks/shoot.wav");
     switch (shooter) {
         case "player":
             bulletIndexAvalaible = getBulletIndexStillAvalaible(0, set.MAXIMUM_PLAYER_SHOOT, set.bulletsObj);
