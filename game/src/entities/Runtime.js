@@ -1,7 +1,9 @@
 import { set, dickSounds } from "./Set.js";
-import { Rect } from "./Rect.js";
-import { Vector2 } from "./Vector.js";
-import { GetSize } from "./System.js";
+import { Rect } from "../entities/Rect.js";
+import { Vector2 } from "../entities/Vector.js";
+import { ConvertSizeCSSValueToInt, GetPosition, GetSize } from "../entities/System.js";
+import { level, infiniteLevel } from "./Level.js";
+import { Monster } from "./Monster.js";
 
 let MAXIMUM_ENNEMY_SHOOT = 30;
 let chronoEnnemyShoot = 0;
@@ -120,7 +122,7 @@ export function BulletRuntime() {
                                     chainMonsterDiv.style.visibility = "visible";
                                     set.chainMult.style.visibility = "visible";
                                 }
-                                chainMonster.src = "./" + set.monstersObj[indexMonster].color + ".png"
+                                chainMonster.src = "./style/ressources/" + set.monstersObj[indexMonster].color + ".png"
 
                                 if (dickSounds.enemy_death != null) {
                                     dickSounds.enemy_death.volume = 0.2;
@@ -151,7 +153,7 @@ export function BulletRuntime() {
 
 export function Shoot(shooter, monster = null) {
     let bulletIndexAvalaible;
-    // let shooter = new Audio("./soundtracks/shoot.wav");
+    // let shooter = new Audio("./style/ressources/soundtracks/shoot.wav");
     switch (shooter) {
         case "player":
             bulletIndexAvalaible = getBulletIndexStillAvalaible(0, set.MAXIMUM_PLAYER_SHOOT, set.bulletsObj);

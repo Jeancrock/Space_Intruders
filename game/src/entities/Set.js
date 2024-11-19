@@ -51,10 +51,10 @@ export let set = {
 }
 
 export let dickSounds = {
-    "bonus": new Audio("./bonus.wav"),
-    "shoot": new Audio("./shoot.wav"),
-    "enemy_death": new Audio("./enemy_death.wav"),
-    "enemy_shoot": new Audio("./enemy_shoot.wav"),
-    "music": new Audio("./space_invader.mp3"),
-    "enemy_move": new Audio("./enemy_move.wav")
+    "bonus": new Audio("./style/soundtracks/bonus.wav"),
+    "shoot": new Audio("./style/soundtracks/shoot.wav"),
+    "enemy_death": new Audio("./style/soundtracks/enemy_death.wav"),
+    "enemy_shoot": new Audio("./style/soundtracks/enemy_shoot.wav"),
+    "music": new Audio("./style/soundtracks/space_invader.mp3"),
+    "enemy_move": new Audio("./style/soundtracks/enemy_move.wav")
 }

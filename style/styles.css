@@ -12,14 +12,14 @@ body {
 
 #extra {
     position: absolute;
-    background-image: url("./extra.png");
+    background-image: url("../style/ressources/extra.png");
     top: 126px;
     width: 40px;
     height: 20px;
 }
 
 #player {
-    background-image: url("./player.png");
+    background-image: url("../style/ressources/player.png");
     height: 30px;
     width: 60px;
     background-repeat: no-repeat;
@@ -122,7 +122,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -55%);
-    background-image: url("./bg.png");
+    background-image: url("../style/ressources/bg.png");
     height: 70%;
     width: 90%;
     position: absolute;
@@ -359,7 +359,7 @@ body {
 #chainMult {
     left: 100%;
     transform: translate(-100%, -50%);
-    background: url("./chain.png");
+    background: url("../style/ressources/chain.png");
     background-size: cover;
 
 }
@@ -368,7 +368,7 @@ body {
     visibility: hidden;
     left: 0%;
     transform: translateY(-50%);
-    background: url("./chain2.png");
+    background: url("../style/ressources/chain2.png");
     background-size: cover;
 }
 
@@ -389,7 +389,7 @@ body {
 }
 
 #bonusChain {
-    background: url("./bonus.gif");
+    background: url("../style/ressources/bonus.gif");
     background-size: cover;
     visibility: hidden;
 }

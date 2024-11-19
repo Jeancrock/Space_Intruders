@@ -1,12 +1,12 @@
 import { set, dickSounds } from "./Set.js";
-import { updateGame, PauseGame, loadScoreboard, refreshData } from "./app.js";
+import { updateGame, PauseGame, loadScoreboard, refreshData } from "../views/app.js";
 
 import { level, infiniteLevel, generateMapMonster, ClearLevel } from "./Level.js";
-import { SetInterfaceVisibility } from "./InterfaceVisibility.js";
+import { SetInterfaceVisibility } from "../entities/InterfaceVisibility.js";
+import { Monsters } from "./Monsters.js";
 import { Monster } from "./Monster.js";
 import { Vector2 } from "./Vector.js";
-import { timerStart } from "./Timer.js";
-
+import { GetTimeLeft, timerStart } from "../entities/Timer.js";
 let playBtn = document.getElementById("playBtn");
 let continueBtn = document.getElementById("continueBtn");
 let restartBtn = document.getElementById("restartBtn");
@@ -43,7 +43,7 @@ function ResetMonstersSize() {
         // console.log(set.currentLvl);
         tab = infiniteLevel[set.currentLvl];
     }
-
+    
 
     let MonstersWidth = -1;
     for (let y = 0; y <= Object.keys(tab).length - 1; y++) {
@@ -64,13 +64,13 @@ function LevelSelect() {
     set.lastEnnemyDestroyed = "";
     switch (set.currentLvl) {
         case 0:
-            set.gameDiv.style.backgroundImage = "url(./b.png)"
+            set.gameDiv.style.backgroundImage = "url(./style/ressources/b.png)"
             break;
         case 1:
-            set.gameDiv.style.backgroundImage = "url(./desktop-wallpaper-8-bit-64-bit.jpg)"
+            set.gameDiv.style.backgroundImage = "url(./style/ressources/desktop-wallpaper-8-bit-64-bit.jpg)"
             break;
         default:
-            set.gameDiv.style.backgroundImage = "url(./ec9ec719f7ee771a7a63a1968a892572.jpeg)"
+            set.gameDiv.style.backgroundImage = "url(./style/ressources/ec9ec719f7ee771a7a63a1968a892572.jpeg)"
             break;
     }
     set.player.Lives = 3;
@@ -85,7 +85,7 @@ function LevelSelect() {
     loadMonsters(level[set.currentLvl]);
 }
 export function EndlessSelect() {
-    set.gameDiv.style.backgroundImage = "url(./desktop-wallpaper-8-bit-64-bit.jpg)";
+    set.gameDiv.style.backgroundImage = "url(./style/ressources/desktop-wallpaper-8-bit-64-bit.jpg)";
     generateMapMonster()
     ResetMonstersSize();
     loadMonsters(infiniteLevel[set.currentLvl]);
