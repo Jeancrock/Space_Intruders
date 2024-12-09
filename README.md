@@ -92,6 +92,6 @@ There is 5 sprites :
 ## Authors
 
 - [Jeancrock](https://github.com/Jeancrock)
-- [@octokatherine](https://www.github.com/octokatherine)
-- [@octokatherine](https://www.github.com/octokatherine)
+- [GLuck777](https://www.github.com/GLuck777)
+- [KevinCastel](https://www.github.com/KevinCastel)
 
