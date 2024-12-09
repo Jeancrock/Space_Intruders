@@ -1,5 +1,5 @@
 
-![Logo](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/logo.png?raw=true)
+<center>![Logo](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/logo.png?raw=true)</center>
 
 Space Intruders is a clone of Space Invaders.
 
