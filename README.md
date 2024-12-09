@@ -21,14 +21,16 @@ ___
   <img src="https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/Story.png?raw=true" alt="logo" />
 </p>
 
-![Logo](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/Story.png?raw=true)
  Here starts the game. 
 
 You can read the story at the beginning, between stages and after the last stage.
 
 There is 3 maps, 3 kind of intruders and 3 lives per stage. 
 ___
- ![Logo](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/EM.png?raw=true)
+<p align="center">
+  <img src="https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/EM.png?raw=true" alt="logo" />
+</p>
+
  Here, you start with 10 lives and you'll try to score without losing
 against endless waves of randomized intruders.
 ____
