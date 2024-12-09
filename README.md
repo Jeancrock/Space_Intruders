@@ -73,7 +73,7 @@ There is 5 sprites :
 - The bonus enemy ( 1 hp & 7500 points) : Don't fire but randomly spawn and slide from right to left at the top of the screen.![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/extra.png?raw=true)
 ## Authors
 
-- [Jeancrock](https://www.github.com/octokatherine)
+- [Jeancrock](https://github.com/Jeancrock)
 - [@octokatherine](https://www.github.com/octokatherine)
 - [@octokatherine](https://www.github.com/octokatherine)
 
