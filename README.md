@@ -35,11 +35,17 @@ ___
 against endless waves of randomized intruders.
 ____
 
- ![Logo](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/Scoreboard.png?raw=true)
+<p align="center">
+  <img src="https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/Scoreboard.png?raw=true" alt="logo" />
+</p>
+
  There is 2 scoreboards : the story one and the endless one.
  ___
  
- ![Logo](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/KeyConf.png?raw=true)
+<p align="center">
+  <img src="https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/KeyConf.png?raw=true" alt="logo" />
+</p>
+
  Here, you can change inputs used to play the game. 
 Defaultly : left and right arrows to move, top arrow to pause the game en spacebar to shoot.Spacebar can be maintained.  
 
