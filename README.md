@@ -80,15 +80,15 @@ Chain : top of the screen. Like the general says, If you destroy the same enemy 
 ## Sprites
 There is 5 sprites : 
 
-- The player :![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/player.png?raw=true)
+- ![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/player.png?raw=true) : The player 
 
-- The Yellow enemy ( 1 hp & 1000 points) :![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/yellow.png?raw=true)
+- ![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/yellow.png?raw=true) : The Yellow enemy ( 1 hp & 1000 points) 
 
-- The green enemy ( 2 hp & 1750 points) : ![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/green.png?raw=true)
+- ![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/green.png?raw=true) : The green enemy ( 2 hp & 1750 points)
 
-- The red enemy ( 3 hp & 2750 points) : Fires faster![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/red.png?raw=true)
+- ![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/red.png?raw=true) : The red enemy ( 3 hp & 2750 points) : Fires faster !
 
-- The bonus enemy ( 1 hp & 7500 points) : Don't fire but randomly spawn and slide from right to left at the top of the screen.![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/extra.png?raw=true)
+- ![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/extra.png?raw=true) : The bonus enemy ( 1 hp & 7500 points) : Don't fire but randomly spawn and slide from right to left at the top of the screen.
 ## Authors
 
 - [Jeancrock](https://github.com/Jeancrock)
