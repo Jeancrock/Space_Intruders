@@ -57,8 +57,8 @@ Defaultly : left and right arrows to move, top arrow to pause the game en spaceb
 
 <p>
   <img src="https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/PastTime.png?raw=true" alt="logo" />
-</p>
 Chrono : top left of the screen.
+</p>
 
 Score : top right of the screen.
 ![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/ActualScore.png?raw=true)
