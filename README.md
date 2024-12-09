@@ -17,6 +17,10 @@ Good Luck & Have Fun !
 ![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/screen.png?raw=true)
 
 ___
+<p align="center">
+  <img src="https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/Story.png?raw=true" alt="logo" />
+</p>
+
 ![Logo](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/Story.png?raw=true)
  Here starts the game. 
 
