@@ -92,6 +92,6 @@ There is 5 sprites :
 ## Authors
 
 - [Jeancrock](https://github.com/Jeancrock)
-- [GLuck777](https://www.github.com/GLuck777)
 - [KevinCastel](https://www.github.com/KevinCastel)
+- [GLuck777](https://www.github.com/GLuck777)
 
