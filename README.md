@@ -59,19 +59,22 @@ Defaultly : left and right arrows to move, top arrow to pause the game en spaceb
   <img src="https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/PastTime.png?raw=true" alt="logo" />
 Chrono : top left of the screen.
 </p>
-
+<p>
+  <img src="https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/ActualScore.png?raw=true" alt="logo" />
 Score : top right of the screen.
-![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/ActualScore.png?raw=true)
-
+</p>
+<p>
+  <img src="https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/remainingLives.png?raw=true" alt="logo" />
 Lives : bottom left of the screen.
-![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/remainingLives.png?raw=true)
-
+</p>
+<p>
+  <img src="https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/RemainingBullets.png?raw=true" alt="logo" />
 Available bullets : bottom right of the screen.
-![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/RemainingBullets.png?raw=true)
-
+</p>
+<p>
+  <img src="https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/tuto.gif?raw=true" alt="logo" />
 Chain : top of the screen. Like the general says, If you destroy the same enemy 4 time without destroying another kind of enemy, you'll obtain a score bonus equal to the enemy chained !
-![App Screenshot](https://github.com/Jeancrock/Space_Intruders/blob/main/style/ressources/tuto.gif?raw=true)
-
+</p>
 
 
 ## Sprites
